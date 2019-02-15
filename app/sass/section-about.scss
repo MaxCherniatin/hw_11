@@ -1,0 +1,79 @@
+.section-about {
+  background-color: $color-e3;
+  padding: 31px 0 76px;
+  &__container {
+    background-color: $color-white;
+    max-width: 1170px;
+    margin-bottom: 39px;
+  }
+  &__wrapper--img {
+    max-width: 1170px;
+    margin: 0 auto 59px;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+  &__description {
+    color: $color-hex;
+    font: 400 14px $font-Crimson-Text;
+    max-width: 1026px;
+    margin: 0 auto 45px;
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+  }
+  &__link--text-contact,
+  &__link--text-portfolio {
+    font: 400 13px $font-Montserrat;
+    border: 2px solid $color-hex;
+    padding: 14px 25px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: $color-hex;
+    text-decoration: none;
+    margin: 0 1px 50px;
+    &:hover {
+      background-color: $color-hex;
+      color: $color-ce;
+    }
+  }
+  &__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__item {
+    text-align: center;
+    border-right: 2px solid #b0b0b0;
+
+    @media screen and (max-width: 840px) {
+      border: none;
+      margin-bottom: 10px;
+    }
+  }
+  &__item--case {
+    border: none;
+  }
+  &__wrapper--icon {
+    max-width: 40px;
+    margin: 0 auto 22px;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+  &__icon--description {
+    color: $color-hex;
+    font: 400 13px $font-Montserrat;
+    margin: 0 80px 28px;
+  }
+  &__price--title {
+    color: $color-hex;
+    font: 400 45px $font-Montserrat
+  }
+}

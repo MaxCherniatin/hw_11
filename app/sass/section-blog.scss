@@ -1,0 +1,71 @@
+.section-blog {
+  background-color: $color-e3;
+  padding-top: 83px;
+  &__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+  &__item {
+    max-width: 401px;
+  }
+  &__wrapper--img {
+    max-width: 401px;
+    width: 100%;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+  &__box--info {
+    background-color: #2d2d2f;
+    max-width: 400px;
+    padding: 49px 40px 63px;
+  }
+  &__box--info-color {
+    background-color: #555557;
+    max-width: 401px;
+    padding: 49px 40px 63px;
+  }
+  &__description--date {
+    color: $color-e3;
+    font: 12px $font-Crimson-Text;
+    font-style: italic;
+    line-height: 18px;
+    margin: 0 0 11px;
+  }
+  &__border {
+    border-bottom: 2px solid #454545;
+    max-width: 151px;
+    margin: 0 0 19px;
+  }
+  &__arrow--text {
+    display: flex;
+    margin-right: 3px;
+  }
+  &__wrapper--arrow {
+    max-width: 4px;
+    margin-right: 5px;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle
+    }
+  }
+  &__title {
+    max-width: 315px;
+    color: $color-e3;
+    font: 400 13px/18px $font-Montserrat;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+  }
+  &__description {
+    color: #949494;
+    font: 400 14px $font-Crimson-Text;
+    line-height: 20.31px;
+    max-width: 316px;
+  }
+}

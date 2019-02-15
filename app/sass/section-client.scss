@@ -1,0 +1,21 @@
+.section-client {
+  padding: 81px 0 124px 0;
+  &__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__item {
+    max-width: 137px;
+    width: 100%;
+  }
+  &__wrapper--img {
+    max-width: 137px;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+}

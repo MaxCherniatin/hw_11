@@ -1,0 +1,12 @@
+.section-masonry {
+  background: url("../img/blog__img.png") no-repeat center/cover;
+  padding-top: 112px;
+  padding-bottom: 120px;
+  &__title {
+    color: $color-white;
+    font: 400 36px $font-Montserrat;
+    line-height: 200.4px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

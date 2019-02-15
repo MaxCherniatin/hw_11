@@ -1,0 +1,40 @@
+.section-testimonials {
+  background: url("../img/background_img.png") no-repeat center/cover;
+  padding: 81px 0 71px;
+  &__wrapper--img {
+    max-width: 105px;
+    margin: 0 auto 56px;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+  &__description {
+    max-width: 900px;
+    width: 100%;
+    color: $color-light;
+    font: 20px $font-Crimson-Text;
+    font-style: italic;
+    line-height: 24px;
+    margin: 0 auto 68px;
+    text-align: center;
+  }
+  &__quotes {
+    color: $color-light;
+    font: 33px $font-Crimson-Text;
+    font-style: italic;
+  }
+  &__name {
+    color: $color-e3;
+    font: 400 13px $font-Montserrat;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  &__job {
+    text-align: center;
+    color: $color-light;
+    font: 14px $font-Crimson-Text;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,71 @@
+.section-title {
+  &__title {
+    color: $color-hex;
+    font: 400 20px Amsdam;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+  &__wrapper--border {
+    max-width: 186px;
+    margin: 0 auto 41px;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+  &__description {
+    color: #cfcfcf;
+    font: 400 14px/25px $font-Crimson-Text;
+    margin: 0 auto 60px;
+    max-width: 1000px;
+    letter-spacing: 1.4px;
+
+    @media (max-width: 1088px) {
+      max-width: 450px;
+    }
+  }
+  &__description--text {
+    color: $color-hex;
+    font: 400 14px/25px $font-Crimson-Text;
+    margin: 0 auto 60px;
+    max-width: 1000px;
+    letter-spacing: 1.4px;
+  }
+  &__title--service {
+    color: $color-white;
+    font: 400 20px Amsdam;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+  &__wrapper--border-service {
+    max-width: 186px;
+    margin: 0 auto 41px;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+  &__title--blog {
+    color: $color-white;
+    font: 400 36px Amsdam;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__wrapper--border-blog {
+    max-width: 321px;
+    margin: 0 auto 28px;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+  &__description-blog {
+    text-align: center;
+    color: $color-white;
+    font: 400 14px $font-Crimson-Text;
+  }
+}

@@ -1,0 +1,55 @@
+.section-slider {
+  background: url("../img/slider-img.png") no-repeat center/cover;
+  padding: 191px 0 161px;
+  &__container {
+    text-align: center;
+  }
+  &__text {
+    color: $color-white;
+    font: 400 14px $font-Crimson-Text;
+    margin-bottom: 23px;
+  }
+  &__wrapper--img {
+    max-width: 516px;
+    margin: 0 auto 44px;
+    position: relative;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+  &__title {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    color: $color-white;
+    font: 400 36px Amsdam;
+
+    @media (max-width: 600px) {
+      font-size: 26px;
+      top: 15px;
+    }
+  }
+  &__link--text{
+    font: 400 15px $font-Montserrat;
+    border: 2px solid $color-white;
+    padding: 15px 26px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: $color-white;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-hex;
+    }
+  }
+  &__wrapper--arrow {
+    max-width: 15px;
+    margin: -8px auto;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+}

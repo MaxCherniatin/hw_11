@@ -1,0 +1,9 @@
+.section-footer {
+  background-color: $color-29;
+  padding-bottom: 38px;
+  &__text {
+    color: $color-94;
+    font: 14px $font-Crimson-Text;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,67 @@
+.section-price {
+  padding: 68px 0 92px;
+  background-color: $color-e3;
+  &__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__item {
+    padding: 46px 0 58px 0;
+    max-width: 369px;
+    text-align: center;
+    background-color: $color-white;
+  }
+  &__title {
+    color: $color-hex;
+    font: 400 13px $font-Montserrat;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+  }
+  &__wrapper--img {
+    max-width: 232px;
+    margin: 0 67px 0 ;
+    img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+  &__description--dollar {
+    color: $color-hex;
+    font: 400 28px $font-Montserrat;
+    margin-right: 135px;
+    margin-top: 26px;
+
+  }
+  &__title--price {
+    color: $color-hex;
+    font: 700 70px $font-Montserrat;
+    line-height: 126.84px;
+    margin-top: -50px;
+  }
+  &__description {
+    margin: 0 auto 51px;
+    max-width: 153px;
+    color: $color-hex;
+    font: 16px $font-Crimson-Text;
+    font-style: italic;
+    line-height: 30px;
+  }
+  &__link {
+    font: 400 13px $font-Montserrat;
+    border: 2px solid $color-hex;
+    padding: 12px 34px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: $color-hex;
+    text-decoration: none;
+    margin: 0 5px 64px;
+    &:hover {
+      background-color: $color-hex;
+      color: $color-ce;
+    }
+  }
+}
